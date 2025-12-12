@@ -1,7 +1,7 @@
 import streamlit as st
 from openai import OpenAI
 
-st.write("학교 생활 챗봇 - 서비스")
+st.write("학교생활 비서 챗봇 - 서비스 v2")
 
 # --- API KEY 입력 ---
 api_key = st.text_input("🔑 OpenAI API Key 입력", type="password")
